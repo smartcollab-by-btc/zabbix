@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Zabbix 6.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-19 13:48+0300\n"
-"PO-Revision-Date: 2025-07-09 07:18+0000\n"
+"PO-Revision-Date: 2025-07-14 08:07+0000\n"
 "Last-Translator: Alexey <alexey.pustovalov@zabbix.com>\n"
 "Language-Team: Zabbix translation team\n"
 "Language: ru\n"
@@ -19404,7 +19404,7 @@ msgstr "Отображается именем аккаунта всем поль
 
 #: app/views/mfa.edit.php:67
 msgid "Shown as the label to all MFA users in authenticator apps."
-msgstr "Отображается в виде метки всем пользователям MFA в приложениях аутентификации."
+msgstr "Отобразится меткой у всех пользователей MFA в приложениях-аутентификаторах."
 
 #: include/classes/html/CHtmlPage.php:148
 msgid "Sidebar control"
@@ -23918,7 +23918,7 @@ msgstr "d.m.Y H:i:s"
 
 #: include/translateDefines.inc.php:40
 msgid "Y-n-d"
-msgstr "d-n-Y"
+msgstr "d.m.Y"
 
 #: include/views/js/monitoring.sysmaps.js.php:448
 msgid "Y1"
@@ -25799,11 +25799,11 @@ msgstr "не должен содержать имени, фамилии или �
 
 #: include/translateDefines.inc.php:41
 msgid "n-d"
-msgstr "d-n"
+msgstr "m.d"
 
 #: include/translateDefines.inc.php:39
 msgid "n-d h:i A"
-msgstr "d-n H:i"
+msgstr "m.d H:i"
 
 #: app/views/webscenario.step.edit.php:82
 #: app/views/webscenario.step.edit.php:131
