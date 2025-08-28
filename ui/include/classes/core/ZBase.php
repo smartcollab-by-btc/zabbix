@@ -564,7 +564,10 @@ class ZBase {
 			throw new Exception(_('Session initialization error.'));
 		}
 
-		CSessionHelper::set('sessionid', CWebUser::$data['sessionid']);
+		if (CSessionHelper::get('sessionid') !== CWebUser::$data['sessionid']) {
+			CSessionHelper::unset(['saml_data']);
+			CSessionHelper::set('sessionid', CWebUser::$data['sessionid']);
+		}
 
 		if (CWebUser::isAutologinEnabled()) {
 			$session->lifetime = time() + SEC_PER_MONTH;
