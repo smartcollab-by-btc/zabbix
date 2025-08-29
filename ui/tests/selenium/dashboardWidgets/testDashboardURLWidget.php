@@ -912,6 +912,8 @@ class testDashboardURLWidget extends CWebTest {
 		}
 
 		$other_form->submit();
+		$this->assertMessage(TEST_GOOD, 'Configuration updated');
+		$this->page->waitUntilReady();
 
 		// Check widget content with changed Xframe options.
 		$this->page->open('zabbix.php?action=dashboard.view&dashboardid='.self::$dashboard_for_frame_widget)->waitUntilReady();
