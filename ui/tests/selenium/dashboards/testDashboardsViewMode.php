@@ -88,9 +88,7 @@ class testDashboardsViewMode extends CLegacyWebTest {
 		$this->zbxTestAssertElementPresentXpath("//div[@class='dashboard-grid']/div[6]//h4[text()='Graph']");
 
 		// Logout.
-		$this->zbxTestLogout();
-		$this->zbxTestWaitForPageToLoad();
-		$this->webDriver->manage()->deleteAllCookies();
+		$this->page->logout();
 	}
 
 	public function testDashboardsViewMode_KioskMode() {

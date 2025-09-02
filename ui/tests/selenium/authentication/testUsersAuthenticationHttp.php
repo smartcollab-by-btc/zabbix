@@ -719,6 +719,7 @@ class testUsersAuthenticationHttp extends CLegacyWebTest {
 
 		$this->createConfigurationFiles($data);
 		$form->submit();
+		$this->assertMessage(TEST_GOOD, 'Authentication settings updated');
 
 		// Check DB configuration.
 		$default_values = [
