@@ -167,8 +167,10 @@ class testZBX6663 extends CLegacyWebTest {
 			$this->zbxTestLogin(self::HOST_LIST_PAGE);
 			$this->query('button:Reset')->one()->click();
 			$form = $this->query('name:zbx_filter')->asForm()->waitUntilReady()->one();
+			$table = $this->query('xpath://table[@class="list-table"]')->asTable()->one();
 			$form->fill(['Name' => $zbx_data['host']]);
 			$this->query('button:Apply')->one()->waitUntilClickable()->click();
+			$table->waitUntilReloaded();
 
 			if (isset($zbx_data['discoveryRule'])) {
 				$this->query('xpath://table[@class="list-table"]')->asTable()->one()->findRow('Name', $zbx_data['host'])
