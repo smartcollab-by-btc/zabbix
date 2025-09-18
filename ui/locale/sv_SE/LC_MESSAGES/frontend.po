@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Zabbix 6.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-19 13:48+0300\n"
-"PO-Revision-Date: 2025-09-07 17:06+0000\n"
+"PO-Revision-Date: 2025-09-12 10:50+0000\n"
 "Last-Translator: Daniel Nylander <zabbix@danielnylander.se>\n"
 "Language-Team: Zabbix <info@zabbix.com>\n"
 "Language: sv_SE\n"
@@ -1296,7 +1296,7 @@ msgstr "Alla tillgängliga"
 
 #: app/views/monitoring.dashboard.view.php:189
 msgid "All dashboards"
-msgstr "Alla instrumentpaneler"
+msgstr "Alla kontrollpaneler"
 
 #: app/views/monitoring.charts.view.php:82
 msgid "All graphs"
@@ -2286,7 +2286,7 @@ msgstr "Kan inte lägga till åtgärd"
 #: jsLoader.php:133
 #, c-format
 msgid "Cannot add dashboard page: maximum number of %1$d dashboard pages has been added."
-msgstr "Kan inte lägga till instrumentpanelssida: maximalt antal %1$d instrumentpanelssidor har lagts till."
+msgstr "Kan inte lägga till kontrollpanelssida: maximalt antal %1$d kontrollpanelssidor har lagts till."
 
 #: host_discovery.php:540
 msgid "Cannot add discovery rule"
@@ -2431,7 +2431,7 @@ msgstr "Det går inte att lägga till widget: inga widgetar tillgängliga."
 
 #: jsLoader.php:134
 msgid "Cannot add widget: not enough free space on the dashboard."
-msgstr "Det går inte att lägga till widget: inte tillräckligt med ledigt utrymme på instrumentpanelen."
+msgstr "Det går inte att lägga till widget: inte tillräckligt med ledigt utrymme på kontrollpanelen."
 
 #: include/classes/api/services/CItem.php:1542
 #, c-format
@@ -2684,8 +2684,8 @@ msgstr[1] "Det går inte att ta bort anslutare"
 #: app/controllers/CControllerTemplateDashboardDelete.php:61
 msgid "Cannot delete dashboard"
 msgid_plural "Cannot delete dashboards"
-msgstr[0] "Det går inte att ta bort instrumentpanelen"
-msgstr[1] "Det går inte att ta bort instrumentpaneler"
+msgstr[0] "Det går inte att ta bort kontrollpanelen"
+msgstr[1] "Det går inte att ta bort kontrollpaneler"
 
 #: include/classes/api/services/CMfa.php:446
 msgid "Cannot delete default MFA method."
@@ -3191,12 +3191,12 @@ msgstr "Det går inte att expandera makron."
 #: include/classes/import/importers/CTemplateDashboardImporter.php:217
 #, c-format
 msgid "Cannot find SLA \"%1$s\" used in dashboard \"%2$s\"."
-msgstr "Kan inte hitta SLA \"%1$s\" som används i instrumentpanelen \"%2$s\"."
+msgstr "Kan inte hitta SLA \"%1$s\" som används i kontrollpanelen \"%2$s\"."
 
 #: include/classes/import/importers/CTemplateDashboardImporter.php:241
 #, c-format
 msgid "Cannot find action \"%1$s\" used in dashboard \"%2$s\"."
-msgstr "Kan inte hitta åtgärd \"%1$s\" som används i instrumentpanelen \"%2$s\"."
+msgstr "Kan inte hitta åtgärd \"%1$s\" som används i kontrollpanelen \"%2$s\"."
 
 #: include/classes/import/importers/CMapImporter.php:270
 #, c-format
@@ -3206,7 +3206,7 @@ msgstr "Kan inte hitta bakgrundsbilden \"%1$s\" som används i kartan \"%2$s\"."
 #: include/classes/import/importers/CTemplateDashboardImporter.php:181
 #, c-format
 msgid "Cannot find graph \"%1$s\" used in dashboard \"%2$s\"."
-msgstr "Kan inte hitta grafen \"%1$s\" som används i instrumentpanelen \"%2$s\"."
+msgstr "Kan inte hitta grafen \"%1$s\" som används i kontrollpanelen \"%2$s\"."
 
 #: include/classes/import/importers/CMapImporter.php:152
 #, c-format
@@ -3216,7 +3216,7 @@ msgstr "Kan inte hitta gruppen \"%1$s\" som används i kartan \"%2$s\"."
 #: include/classes/import/importers/CTemplateDashboardImporter.php:151
 #, c-format
 msgid "Cannot find host \"%1$s\" used in dashboard \"%2$s\"."
-msgstr "Kan inte hitta värd \"%1$s\" som används i instrumentpanelen \"%2$s\"."
+msgstr "Kan inte hitta värd \"%1$s\" som används i kontrollpanelen \"%2$s\"."
 
 #: include/classes/import/importers/CMapImporter.php:164
 #, c-format
@@ -3301,12 +3301,12 @@ msgstr "Kan inte hitta objektet \"%1$s\" på \"%2$s\" som används i grafprototy
 #: include/classes/import/importers/CTemplateDashboardImporter.php:166
 #, c-format
 msgid "Cannot find item \"%1$s\" used in dashboard \"%2$s\"."
-msgstr "Kan inte hitta objektet \"%1$s\" som används i instrumentpanelen \"%2$s\"."
+msgstr "Kan inte hitta objektet \"%1$s\" som används i kontrollpanelen \"%2$s\"."
 
 #: include/classes/import/importers/CTemplateDashboardImporter.php:193
 #, c-format
 msgid "Cannot find map \"%1$s\" used in dashboard \"%2$s\"."
-msgstr "Kan inte hitta kartan \"%1$s\" som används i instrumentpanelen \"%2$s\"."
+msgstr "Kan inte hitta kartan \"%1$s\" som används i kontrollpanelen \"%2$s\"."
 
 #: include/classes/import/importers/CMapImporter.php:140
 #, c-format
@@ -3316,12 +3316,12 @@ msgstr "Kan inte hitta karta \"%1$s\" som används i karta \"%2$s\"."
 #: include/classes/import/importers/CTemplateDashboardImporter.php:253
 #, c-format
 msgid "Cannot find media type \"%1$s\" used in dashboard \"%2$s\"."
-msgstr "Kan inte hitta medietyp \"%1$s\" som används i instrumentpanelen \"%2$s\"."
+msgstr "Kan inte hitta medietyp \"%1$s\" som används i kontrollpanelen \"%2$s\"."
 
 #: include/classes/import/importers/CTemplateDashboardImporter.php:205
 #, c-format
 msgid "Cannot find service \"%1$s\" used in dashboard \"%2$s\"."
-msgstr "Kan inte hitta tjänsten \"%1$s\" som används i instrumentpanelen \"%2$s\"."
+msgstr "Kan inte hitta tjänsten \"%1$s\" som används i kontrollpanelen \"%2$s\"."
 
 #: include/classes/import/CConfigurationImport.php:1458
 #, c-format
@@ -3342,7 +3342,7 @@ msgstr "Kan inte hitta utlösaren \"%1$s\" som används i karta \"%2$s\"."
 #: include/classes/import/importers/CTemplateDashboardImporter.php:229
 #, c-format
 msgid "Cannot find user \"%1$s\" used in dashboard \"%2$s\"."
-msgstr "Kan inte hitta användaren \"%1$s\" som används i instrumentpanelen \"%2$s\"."
+msgstr "Kan inte hitta användaren \"%1$s\" som används i kontrollpanelen \"%2$s\"."
 
 #: include/classes/api/services/CUser.php:1543
 msgid "Cannot find user directory for LDAP."
@@ -4819,7 +4819,7 @@ msgstr "Konfiguration av autentisering"
 #: app/controllers/CControllerTemplateDashboardEdit.php:103
 #: app/controllers/CControllerTemplateDashboardList.php:93
 msgid "Configuration of dashboards"
-msgstr "Konfiguration av instrumentpaneler"
+msgstr "Konfiguration av kontrollpaneler"
 
 #: app/controllers/CControllerDiscoveryEdit.php:144
 #: app/controllers/CControllerDiscoveryList.php:143 host_discovery.php:27
@@ -5344,7 +5344,7 @@ msgstr "Skapa åtgärd"
 
 #: include/classes/helpers/CRoleHelper.php:534
 msgid "Create and edit dashboards"
-msgstr "Skapa och redigera instrumentpaneler"
+msgstr "Skapa och redigera kontrollpaneler"
 
 #: include/classes/helpers/CRoleHelper.php:539
 msgid "Create and edit maintenance"
@@ -5365,7 +5365,7 @@ msgstr "Skapa anslutare"
 #: app/views/configuration.dashboard.list.php:84
 #: app/views/monitoring.dashboard.list.php:42
 msgid "Create dashboard"
-msgstr "Skapa instrumentpanel"
+msgstr "Skapa kontrollpanel"
 
 #: jsLoader.php:353
 msgid "Create dependent discovery rule"
@@ -5796,12 +5796,12 @@ msgstr "Kontrollpanel"
 #: include/classes/api/services/CTemplateDashboard.php:508
 #, c-format
 msgid "Dashboard \"%1$s\" already exists."
-msgstr "Instrumentpanelen \"%1$s\" finns redan."
+msgstr "Kontrollpanelen \"%1$s\" finns redan."
 
 #: include/classes/api/services/CDashboardGeneral.php:94
 #, c-format
 msgid "Dashboard \"%1$s\" is used in report \"%2$s\"."
-msgstr "Instrumentpanelen \"%1$s\" används i rapporten \"%2$s\"."
+msgstr "Kontrollpanelen \"%1$s\" används i rapporten \"%2$s\"."
 
 #: app/controllers/CControllerDashboardUpdate.php:218
 #: app/controllers/CControllerTemplateDashboardUpdate.php:190
@@ -5812,8 +5812,8 @@ msgstr "Dashboard skapad"
 #: app/controllers/CControllerTemplateDashboardDelete.php:58
 msgid "Dashboard deleted"
 msgid_plural "Dashboards deleted"
-msgstr[0] "Instrumentpanelen raderad"
-msgstr[1] "Instrumentpaneler borttagna"
+msgstr[0] "Kontrollpanelen raderad"
+msgstr[1] "Kontrollpaneler borttagna"
 
 #: jsLoader.php:200
 msgid "Dashboard is used as data source."
@@ -5821,7 +5821,7 @@ msgstr "Dashboard används som datakälla."
 
 #: app/views/monitoring.host.dashboard.view.php:144
 msgid "Dashboard list"
-msgstr "Lista över instrumentpaneler"
+msgstr "Lista över kontrollpaneler"
 
 #: app/views/dashboard.page.properties.edit.php:59
 msgid "Dashboard page properties"
@@ -5829,11 +5829,11 @@ msgstr "Egenskaper för Dashboard-sidan"
 
 #: app/views/dashboard.properties.edit.php:87
 msgid "Dashboard properties"
-msgstr "Egenskaper för instrumentpanelen"
+msgstr "Egenskaper för kontrollpanelen"
 
 #: app/views/popup.dashboard.share.edit.php:148
 msgid "Dashboard sharing"
-msgstr "Delning av instrumentpanel"
+msgstr "Delning av kontrollpanel"
 
 #: app/controllers/CControllerDashboardShareUpdate.php:102
 #: app/controllers/CControllerDashboardUpdate.php:217
@@ -5844,7 +5844,7 @@ msgstr "Dashboard uppdaterad"
 #: include/classes/api/services/CReport.php:319
 #, c-format
 msgid "Dashboard with ID \"%1$s\" is not available."
-msgstr "Instrumentpanel med ID \"%1$s\" är inte tillgänglig."
+msgstr "Kontrollpanel med ID \"%1$s\" är inte tillgänglig."
 
 #: app/controllers/CControllerDashboardList.php:120
 #: app/controllers/CControllerHostDashboardView.php:133
@@ -5864,7 +5864,7 @@ msgstr "Instrumentpanel med ID \"%1$s\" är inte tillgänglig."
 #: include/views/inventory.host.view.php:168
 #: include/views/inventory.host.view.php:172 jsLoader.php:354
 msgid "Dashboards"
-msgstr "Instrumentpaneler"
+msgstr "Kontrollpaneler"
 
 #: include/graphs.inc.php:63 include/views/js/monitoring.sysmaps.js.php:804
 #: include/views/js/monitoring.sysmaps.js.php:890
@@ -6295,7 +6295,7 @@ msgstr "Ta bort aktuell åtgärd?"
 
 #: jsLoader.php:356
 msgid "Delete dashboard?"
-msgstr "Ta bort instrumentpanelen?"
+msgstr "Ta bort kontrollpanelen?"
 
 #: app/views/configuration.discovery.edit.php:264
 #: include/views/configuration.host.discovery.edit.php:1032
@@ -6391,12 +6391,12 @@ msgstr "Ta bort valda anslutare?"
 #: app/views/configuration.dashboard.list.php:71
 #: app/views/monitoring.dashboard.list.php:125
 msgid "Delete selected dashboard?"
-msgstr "Ta bort vald instrumentpanel?"
+msgstr "Ta bort vald kontrollpanel?"
 
 #: app/views/configuration.dashboard.list.php:72
 #: app/views/monitoring.dashboard.list.php:126
 msgid "Delete selected dashboards?"
-msgstr "Ta bort valda instrumentpaneler?"
+msgstr "Ta bort valda kontrollpaneler?"
 
 #: app/views/js/configuration.discovery.list.js.php:113
 #: include/views/configuration.host.discovery.list.php:370
@@ -8417,7 +8417,7 @@ msgstr "Misslyckad inloggning"
 #: app/views/js/configuration.dashboard.edit.js.php:171
 #: app/views/js/monitoring.dashboard.view.js.php:272
 msgid "Failed to create dashboard"
-msgstr "Misslyckades med att skapa instrumentpanel"
+msgstr "Misslyckades med att skapa kontrollpanel"
 
 #: app/views/js/webscenario.step.edit.js.php:371
 #: include/views/js/common.item.edit.js.php:290
@@ -8426,7 +8426,7 @@ msgstr "Misslyckades med att tolka URL."
 
 #: jsLoader.php:139
 msgid "Failed to paste dashboard page."
-msgstr "Misslyckades med att klistra in instrumentpanelssidan."
+msgstr "Misslyckades med att klistra in kontrollpanelssidan."
 
 #: jsLoader.php:140
 msgid "Failed to paste widget."
@@ -8441,20 +8441,20 @@ msgstr "Misslyckades med att välja standard LDAP-server."
 #: app/views/js/configuration.dashboard.edit.js.php:172
 #: app/views/js/monitoring.dashboard.view.js.php:273
 msgid "Failed to update dashboard"
-msgstr "Misslyckades med att uppdatera instrumentpanelen"
+msgstr "Misslyckades med att uppdatera kontrollpanelen"
 
 #: jsLoader.php:141
 msgid "Failed to update dashboard page properties."
-msgstr "Det gick inte att uppdatera egenskaperna för instrumentpanelens sida."
+msgstr "Det gick inte att uppdatera egenskaperna för kontrollpanelens sida."
 
 #: jsLoader.php:142
 msgid "Failed to update dashboard properties."
-msgstr "Det gick inte att uppdatera instrumentpanelens egenskaper."
+msgstr "Det gick inte att uppdatera kontrollpanelens egenskaper."
 
 #: app/controllers/CControllerDashboardShareUpdate.php:110
 #: app/views/js/popup.dashboard.share.edit.js.php:83
 msgid "Failed to update dashboard sharing."
-msgstr "Misslyckades med att uppdatera instrumentpanelens delning."
+msgstr "Misslyckades med att uppdatera kontrollpanelens delning."
 
 #: jsLoader.php:128
 msgid "Failed to update time selector."
@@ -9619,7 +9619,7 @@ msgstr "Värdantal"
 
 #: app/views/monitoring.host.dashboard.view.php:73
 msgid "Host dashboards"
-msgstr "Värd för instrumentpaneler"
+msgstr "Värd för kontrollpaneler"
 
 #: app/controllers/CControllerHostMassDelete.php:66
 msgid "Host deleted"
@@ -10420,7 +10420,7 @@ msgstr "Otillgänglig åtgärd"
 #: app/controllers/CControllerPopupScheduledReportEdit.php:123
 #: app/controllers/CControllerScheduledReportEdit.php:303
 msgid "Inaccessible dashboard"
-msgstr "Otillgänglig instrumentpanel"
+msgstr "Otillgänglig kontrollpanel"
 
 #: app/partials/configuration.host.edit.html.php:64
 #: app/partials/configuration.hostgroup.edit.html.php:69
@@ -14301,7 +14301,7 @@ msgstr "Ny anslutare"
 #: app/controllers/CControllerDashboardView.php:174
 #: app/controllers/CControllerTemplateDashboardEdit.php:79
 msgid "New dashboard"
-msgstr "Ny instrumentpanel"
+msgstr "Ny kontrollpanel"
 
 #: app/views/configuration.discovery.edit.php:244
 #: app/views/configuration.discovery.edit.php:285
@@ -14440,7 +14440,7 @@ msgstr "Nya värden"
 
 #: app/views/monitoring.host.dashboard.view.php:146
 msgid "Next dashboard"
-msgstr "Nästa instrumentpanel"
+msgstr "Nästa kontrollpanel"
 
 #: app/views/configuration.dashboard.edit.php:114
 #: app/views/monitoring.dashboard.view.php:184
@@ -14702,63 +14702,63 @@ msgstr "Ingen behörighet att anropa \"%1$s.%2$s\"."
 
 #: include/classes/api/services/CConfiguration.php:312
 msgid "No permissions to import discovery rules."
-msgstr ""
+msgstr "Inga behörigheter för att importera upptäcktsregler."
 
 #: include/classes/api/services/CConfiguration.php:313
 msgid "No permissions to import graphs."
-msgstr ""
+msgstr "Inga behörigheter för att importera grafer."
 
 #: include/classes/api/services/CConfiguration.php:314
 msgid "No permissions to import host groups."
-msgstr ""
+msgstr "Inga behörigheter för att importera värdgrupper."
 
 #: include/classes/api/services/CConfiguration.php:316
 msgid "No permissions to import hosts."
-msgstr ""
+msgstr "Inga behörigheter för att importera värdar."
 
 #: include/classes/api/services/CConfiguration.php:318
 msgid "No permissions to import images."
-msgstr ""
+msgstr "Inga behörigheter för att importera bilder."
 
 #: include/classes/api/services/CConfiguration.php:319
 msgid "No permissions to import items."
-msgstr ""
+msgstr "Inga behörigheter för att importera objekt."
 
 #: include/classes/api/services/CConfiguration.php:320
 msgid "No permissions to import maps."
-msgstr ""
+msgstr "Inga behörigheter för att importera kartor."
 
 #: include/classes/api/services/CConfiguration.php:321
 msgid "No permissions to import media types."
-msgstr ""
+msgstr "Inga behörigheter för att importera mediatyper."
 
 #: include/classes/api/services/CConfiguration.php:324
 msgid "No permissions to import template dashboards."
-msgstr ""
+msgstr "Inga behörigheter för att importera mallar för kontrollpaneler."
 
 #: include/classes/api/services/CConfiguration.php:315
 msgid "No permissions to import template groups."
-msgstr ""
+msgstr "Inga behörigheter för att importera mallgrupper."
 
 #: include/classes/api/services/CConfiguration.php:322
 msgid "No permissions to import template links."
-msgstr ""
+msgstr "Inga behörigheter för att importera mallänkar."
 
 #: include/classes/api/services/CConfiguration.php:323
 msgid "No permissions to import templates."
-msgstr ""
+msgstr "Inga behörigheter för att importera mallar."
 
 #: include/classes/api/services/CConfiguration.php:325
 msgid "No permissions to import triggers."
-msgstr ""
+msgstr "Inga behörigheter för att importera utlösare."
 
 #: include/classes/api/services/CConfiguration.php:326
 msgid "No permissions to import value maps."
-msgstr ""
+msgstr "Inga behörigheter för att importera värdekartor."
 
 #: include/classes/api/services/CConfiguration.php:317
 msgid "No permissions to import web scenarios."
-msgstr ""
+msgstr "Inga behörigheter för att importera webbscenarior."
 
 #: app/controllers/CControllerChartsView.php:133
 #: app/controllers/CControllerDashboardPrint.php:99
@@ -15555,7 +15555,7 @@ msgstr "Endast tjänster utan problemtaggar"
 
 #: include/classes/api/services/CDashboard.php:405
 msgid "Only super admins can set dashboard owner."
-msgstr "Endast superadministratörer kan ange ägare för instrumentpanelen."
+msgstr "Endast superadministratörer kan ange ägare för kontrollpanelen."
 
 #: include/classes/api/services/CReport.php:354
 msgid "Only super admins can set report owner."
@@ -15805,7 +15805,7 @@ msgstr "Utmatning"
 #: include/classes/api/services/CDashboardGeneral.php:339
 #, c-format
 msgid "Overlapping widgets at X:%3$d, Y:%4$d on page #%2$d of dashboard \"%1$s\"."
-msgstr "Överlappande widgets på X:%3$d, Y:%4$d på sidan #%2$d i instrumentpanelen \"%1$s\"."
+msgstr "Överlappande widgetar på X:%3$d, Y:%4$d på sidan #%2$d i kontrollpanelen \"%1$s\"."
 
 #: include/views/configuration.item.edit.php:893
 #: include/views/configuration.item.edit.php:925
@@ -16576,7 +16576,7 @@ msgstr "Förhandsvisa"
 
 #: app/views/monitoring.host.dashboard.view.php:135
 msgid "Previous dashboard"
-msgstr "Tidigare instrumentpanel"
+msgstr "Föregående kontrollpanel"
 
 #: app/partials/scheduledreport.formgrid.html.php:86
 #: app/partials/scheduledreport.table.html.php:57
@@ -20260,11 +20260,11 @@ msgstr "En mall kan inte länkas till en annan mall mer än en gång, inte ens g
 
 #: app/controllers/CControllerAuditLogList.php:256
 msgid "Template dashboard"
-msgstr "Mall för instrumentpanel"
+msgstr "Mall för kontrollpanel"
 
 #: app/views/popup.import.php:37
 msgid "Template dashboards"
-msgstr "Mall för instrumentpaneler"
+msgstr "Mall för kontrollpaneler"
 
 #: app/controllers/CControllerTemplateDelete.php:133
 msgid "Template deleted"
@@ -20640,7 +20640,7 @@ msgstr "Parametern \"%1$s\" saknas i användarattributen."
 
 #: app/views/popup.ldap.edit.php:101
 msgid "The previous password was cleared due to a host change. Please enter the new password."
-msgstr ""
+msgstr "Det tidigare lösenordet raderades på grund av ett värdbyte. Ange det nya lösenordet."
 
 #: include/classes/core/CJsonRpc.php:206
 msgid "The received JSON is not a valid JSON-RPC request."
@@ -22273,7 +22273,7 @@ msgstr "Användaren \"%1$s\" kan inte vara utan användargrupp."
 #: include/classes/api/services/CUser.php:1361
 #, c-format
 msgid "User \"%1$s\" is dashboard \"%2$s\" owner."
-msgstr "Användaren \"%1$s\" är ägare till instrumentpanelen \"%2$s\"."
+msgstr "Användaren \"%1$s\" är ägare till kontrollpanelen \"%2$s\"."
 
 #: include/classes/api/services/CUser.php:1346
 #, c-format
@@ -23563,7 +23563,7 @@ msgstr "Widget"
 #: include/classes/api/services/CDashboardGeneral.php:352
 #, c-format
 msgid "Widget at X:%3$d, Y:%4$d on page #%2$d of dashboard \"%1$s\" is out of bounds."
-msgstr "Widget på X:%3$d, Y:%4$d på sidan #%2$d i instrumentpanelen \"%1$s\" är utanför gränserna."
+msgstr "Widget på X:%3$d, Y:%4$d på sidan #%2$d i kontrollpanelen \"%1$s\" är utanför gränserna."
 
 #: include/classes/html/widgets/CWidgetFormView.php:234
 msgid "Widget is deprecated."
@@ -26197,7 +26197,7 @@ msgstr "mall-ID \"%1$s\" skickas %2$s gånger"
 
 #: include/classes/api/services/CTemplateDashboard.php:395
 msgid "template dashboard with the same UUID already exists"
-msgstr "mallinstrumentpanel med samma UUID finns redan"
+msgstr "mall för kontrollpanel med samma UUID finns redan"
 
 #: include/classes/api/services/CTemplateGroup.php:594
 msgid "template group with the same UUID already exists"
