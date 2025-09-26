@@ -470,7 +470,8 @@ class testUsersAuthenticationLdap extends testFormAuthentication {
 		// Fill login and user password in Test authentication form.
 		if (array_key_exists('test_settings', $data)) {
 			$test_form_dialog->asForm()->fill($data['test_settings'])->submit();
-			$test_form_dialog->waitUntilReady();
+			// TODO: increased wait time due to slow connection on Jenkins machine
+			$test_form_dialog->waitUntilReady(120);
 		}
 
 		// Check error messages testing LDAP settings.
